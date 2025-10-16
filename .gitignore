@@ -1,0 +1,47 @@
+# ==============================
+# Eduport LMS Project .gitignore
+# ==============================
+
+# --- 1. Ignore image & media files in assets and docs ---
+assets/images/**/*.jpg
+assets/images/**/*.jpeg
+assets/images/**/*.png
+assets/images/**/*.gif
+assets/images/**/*.mp4
+assets/images/**/*.mp3
+
+docs/assets/images/**/*.jpg
+docs/assets/images/**/*.jpeg
+docs/assets/images/**/*.png
+docs/assets/images/**/*.gif
+docs/assets/images/**/*.mp4
+docs/assets/images/**/*.mp3
+
+# --- 2. Ignore compiled & minified files ---
+assets/css/**/*.min.css
+assets/js/**/*.min.js
+docs/**/*.min.css
+docs/**/*.min.js
+
+# --- 3. Ignore map and cache files ---
+assets/**/*.map
+docs/**/*.map
+assets/**/*.cache
+docs/**/*.cache
+
+# --- 4. Ignore system & environment files ---
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+
+# --- 5. Optional: dependency or build directories (uncomment if present) ---
+# node_modules/
+# dist/
+# build/
+
+# --- 6. IDE/editor folders ---
+.vscode/
+.idea/
+*.swp
